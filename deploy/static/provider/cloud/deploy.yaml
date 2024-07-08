@@ -93,7 +93,7 @@ rules:
 - apiGroups:
   - coordination.k8s.io
   resourceNames:
-  - ingress-nginx-leader
+  - internal-ingress-nginx-leader
   resources:
   - leases
   verbs:

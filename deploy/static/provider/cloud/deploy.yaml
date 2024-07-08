@@ -624,7 +624,7 @@ metadata:
     app.kubernetes.io/name: internal-ingress-nginx
     app.kubernetes.io/part-of: internal-ingress-nginx
     app.kubernetes.io/version: 1.10.1
-  name: nginx
+  name: internal-nginx
 spec:
   controller: k8s.io/internal-ingress-nginx
 ---
